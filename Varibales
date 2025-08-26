@@ -1,0 +1,30 @@
+To check o.p of javascript 
+open inspect and console to edit/write the code in browser.
+
+another use case of console is console .log() used in developing/testing a website.
+console.log("Hello world!")
+
+Javascript variables are the name of the storage location or you can think of its as a containers. 
+ decalrion - synatax: var variable_name;
+                       ex: var name;
+initialization - var name;
+                 name="pavithra";
+            (OR)
+                  var name="pavithra";
+we can store any datatype values inside a varibale name in javascript.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+      <script type="text/javascript">
+      	var name="pavithra";
+        console.log(name);
+</script>
+</head>
+<body>
+
+</body>
+</html>
+this code create a file name call called pavithra in console of our browser. In that console if write and name and enter it will show 'pavithra'.
+
