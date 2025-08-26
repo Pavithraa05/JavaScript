@@ -1,0 +1,23 @@
+HTML is used to create HTML elements
+CSS used to style those elements
+Javascript is used to create,update and change the style of those HTML elements in your webpage dynamically( launched by netscape in 1995).
+Javascript code will be written inside the script tag.This tag will be written inside the html code.
+<script type="text/Javascript">
+</script>
+ -type attribute specifies the type of script the we are gonna use inside the script tag.
+
+:simple html code which includes javascript-
+ <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+      <script type="text/javascript">
+        alert("Hello Javascript")
+</script>
+</head>
+<body>
+
+</body>
+</html>
+
+alert function alerts a value in the browser ,its like a print statement of most programming languages but instead of printing a value it will show the msg in the alert box.
