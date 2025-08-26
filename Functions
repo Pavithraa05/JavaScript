@@ -1,0 +1,39 @@
+Functions are reussable code that can be called anywhere within your program.
+Helps in reducing no of lines in the code as we simply call the function whenever we need it intead of writing the steps again and again.
+-Inbuilt. ex: alert()
+-User defined
+  function function_name(parameters);{
+      return return_value;
+  }
+
+function sum(a,b){
+ var c=a+b;
+ return c;
+}
+function call
+sum(5,6);
+
+- function pi(){
+   returrn 3.14;
+}
+pi();
+***
+ <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+      <script type="text/javascript">
+      	function pi(){
+      		return 3.14;
+      	}
+      	function area_of_circle(radius){
+      		area=pi()*radius*radius;
+      		return area;
+      	}
+      	alert(area_of_circle(5));
+</script>
+</head>
+<body>
+
+</body>
+</html>
