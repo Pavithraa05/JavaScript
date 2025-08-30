@@ -1,0 +1,20 @@
+Events are actions or occurences that happen on the system.
+There are many events-
+Onclick event  : synatx -> <html_element onclick= "function_name()">
+                 Ex->   <p onclick="change_paragraph_text()">Default text</p>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+    <p id="output" onclick="change_paragraph_text()">Default text</p>
+<script type="text/javascript">
+    function change_paragraph_text(){
+     document.getElementById("output").innerHTML="New text"
+    }
+
+</script>
+</body>
+</html> 
+
+This shows default text on web page and by moving cursor and clicking on default it changes to New text.
