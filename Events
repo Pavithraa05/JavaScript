@@ -18,3 +18,47 @@ Onclick event  : synatx -> <html_element onclick= "function_name()">
 </html> 
 
 This shows default text on web page and by moving cursor and clicking on default it changes to New text.
+
+ONLOAD event:
+Syntax
+<html_element onload="function_name()">
+Example
+<body onload="change_paragraph_text()">
+
+ONMouseover event:
+Syntax
+<html_element onmouseover="function_name()">
+Example
+<p onmouseover="change_paragraph_text()">
+Default text</p>
+
+Onmouseout event:
+Syntax
+<html_element onmouseout="function_name()">
+Example
+<p onmouseout="set_default_text()">
+Default text</p>
+
+Onkeyup event:
+Syntax
+<html_element onkeyup="function_name()">
+Example
+<input onkeyup="change_paragraph_text()">
+
+
+
+<html>
+<head>
+  <title></title>
+</head>
+<body >
+    <p id="output" onclick="change_paragraph_text()"  onmouseover="change_paragraph_text()">Default text</p>
+    <input onkeyup="change_paragraph_text(this.value)">
+<script type="text/javascript">
+    function change_paragraph_text(text){
+     document.getElementById("output").innerHTML=text;
+    }
+
+</script>
+</body>
+</html>
