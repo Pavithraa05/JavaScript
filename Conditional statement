@@ -1,0 +1,52 @@
+Executing the code based on the conditions is called conditional statements.
+IF:  Synatx
+if (condition) {
+Write statements here;
+}
+Ex:
+var a = 20;
+var b = 10;
+if (a > b) {
+}
+alert("a is greater than b.");
+}
+
+ IF else: syntax
+if(condition) {
+if statements here;
+else{
+else statement here;
+}
+Ex:
+var a = 10;
+var b= 20;
+if (a > b) {
+}
+alert("a is greater than b.");
+}
+else{
+alert("b is greater than a.");
+}
+
+
+
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+    <p id="output">Default text</p>
+<script type="text/javascript">
+     document.getElementById("output").innerHTML="New text"
+     a=10;
+     b=20;
+     if(a>b){
+        alert("a is greater than b.")
+     }
+     else
+     {
+        alert("a is less than b.")
+     }
+</script>
+</body>
+</html>
