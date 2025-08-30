@@ -1,0 +1,32 @@
+Comaprision operator is used to compare one variable with another.
+    var x=10;
+    var y=10;
+     x==y
+returns true or false
+
+Equal (==)    ->   x == y : Returns true if the operands are equal.
+Strict equal (===) -> x === y : Returns true if the operands are equal and of the same type.
+Not equal (!=) -> x != y : Returns true if the operands are not equal.
+Greater than (>) -> x>y : Returns true if the left operand is greater than the right operand.
+Greater than or equal (>=) ->  x>=y : Returns true if the left operand is greater than or equal to the right operand.
+Less than (<) -> x<y : Returns true if the left operand is less than the right operand.
+Less than or equal (<=) -> x<=y : Returns true if the left operand is less than or equal to the right operand.
+
+
+In console
+x=10
+10
+y=10
+10
+x==y
+true
+y=11
+11
+x==y
+false
+x!=y
+true
+x>y
+false
+x<y
+true
