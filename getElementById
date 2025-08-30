@@ -1,3 +1,8 @@
+// Document object represents HTML document that is displayed in web browser.
+   Document ia an object and it has various methods and properties,using which you can change or access HTML elements.
+
+  getElementById() method returns the element that has the ID attribute with the specified value.
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,4 +14,11 @@
      document.getElementById("output").innerHTML="New text";
 </script>
 </body>
-</html>
+</html>            
+This shows New text on webpage
+
+In console 
+ document.getElementById("output")
+   ENTER
+document.getElementById("output").innerHTML="From console";
+Now it shows From console on webpage.
