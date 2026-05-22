@@ -1,7 +1,7 @@
-Functions are reussable code that can be called anywhere within your program.
+/*Functions are reussable code that can be called anywhere within your program.
 Helps in reducing no of lines in the code as we simply call the function whenever we need it intead of writing the steps again and again.
 -Inbuilt. ex: alert()
--User defined
+-User defined*/
   function function_name(parameters);{
       return return_value;
   }
